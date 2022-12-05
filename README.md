@@ -1,1 +1,1 @@
-# footprints_character
+# pad_character
