@@ -8,4 +8,9 @@ RSpec.describe PadCharacter do
   it "does something useful" do
     expect(false).to eq(true)
   end
+
+  it "入力した文字が全て🐾になる"
+    string = "あいうえお"
+    expect(string.to_pad).to eql("🐾🐾🐾🐾🐾")
+  end
 end
