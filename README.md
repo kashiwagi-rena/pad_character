@@ -1,6 +1,6 @@
 # PadCharacter
 
-Welcome to PadCharacter!
+Welcome to PadCharacter!!!
  Character is a gem that converts alphabets to PadCharacter.PadCharacter is a character for animals composed of :feet:
  Now you might be able to communicate with animals, too!
 
