@@ -1,16 +1,9 @@
 # frozen_string_literal: true
 
-RSpec.describe PadCharacter do
-  it "has a version number" do
-    expect(PadCharacter::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
-  end
-
-  it "入力した文字が全て🐾になる"
-    string = "あいうえお"
-    expect(string.to_pad).to eql("🐾🐾🐾🐾🐾")
+RSpec.describe Pad_character do
+  context "to_padが文字列で呼び出された時" do
+    it "入力した文字が全て🐾になる" do
+      expect(Pad_character.to_pad("あいうえお")).to eql("🐾🐾🐾🐾🐾")
+    end
   end
 end
