@@ -1,7 +1,7 @@
 # PadCharacter
 
 Welcome to PadCharacter!
- Character is a gem that converts alphabets to PadCharacter.PadCharacter is a character for animals composed of 🐾
+ Character is a gem that converts alphabets to PadCharacter.PadCharacter is a character for animals composed of :feet:
  Now you might be able to communicate with animals, too!
 
 ## Installation
@@ -16,7 +16,16 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+Using the to_pad method on a string returns a string converted to PadCharacter according to the number of characters
+Conversion is possible regardless of language, number, etc.
+
+```
+"あいうえお".to_pad
+=> '🐾🐾🐾🐾🐾'
+
+"アa１阿".to_pad
+=> '🐾🐾🐾🐾'
+```
 
 ## Development
 
