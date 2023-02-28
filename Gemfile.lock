@@ -24,6 +24,7 @@ GEM
 
 PLATFORMS
   -darwin-21
+  arm64-darwin-21
 
 DEPENDENCIES
   pad_character!
